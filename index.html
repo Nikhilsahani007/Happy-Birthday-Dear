@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Dear! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Page 1: Landing -->
+        <div class="page active" id="page-1">
+            <div class="sparkles"></div>
+            <div class="content">
+                <h1 class="main-title">Something special for you, Bujji...</h1>
+                <button class="btn btn--primary continue-btn" onclick="nextPage()">
+                    <span>Click to Continue</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Page 2: Building excitement -->
+        <div class="page" id="page-2">
+            <div class="floating-elements"></div>
+            <div class="content">
+                <h1 class="main-title">Get ready for something amazing, Sweety...</h1>
+                <button class="btn btn--primary continue-btn" onclick="nextPage()">
+                    <span>Continue</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Page 3: Magical -->
+        <div class="page" id="page-3">
+            <div class="magic-particles"></div>
+            <div class="content">
+                <h1 class="main-title">This is going to be magical, Sweetheart ❤️...</h1>
+                <button class="btn btn--primary continue-btn" onclick="nextPage()">
+                    <span>Continue</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Page 4: Almost there -->
+        <div class="page" id="page-4">
+            <div class="anticipation-glow"></div>
+            <div class="content">
+                <h1 class="main-title">Almost there, Jana...</h1>
+                <p class="subtitle">The best is yet to come...</p>
+                <button class="btn btn--primary continue-btn" onclick="nextPage()">
+                    <span>Continue</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Page 5: Birthday celebration -->
+        <div class="page celebration-page" id="page-5">
+            <div class="confetti-container"></div>
+            <div class="balloons-container"></div>
+            <div class="celebration-sparkles"></div>
+            
+            <div class="content celebration-content">
+                <h1 class="birthday-title">Happy Birthday, Meri jaan ❤️! 🎉</h1>
+                
+                <div class="photo-container">
+                    <img src="/photo.png" 
+alt="Birthday Photo" id="birthday-photo" 
+                         class="birthday-photo">
+                </div>
+                
+                <p class="birthday-message">Wishing you joy, happiness, and all the wonderful moments life has to offer on your special day!</p>
+                
+                <button class="btn btn--primary celebrate-again-btn" onclick="restartExperience()">
+                    <span>Celebrate Again</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+
+<script src="https://static.app/js/static.js" type="text/javascript"></script>
+</body>
+</html>
